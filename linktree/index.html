@@ -1,16 +1,92 @@
+<-->
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Leia mais comigo</title>
+    <title>Projeto Leia Mais Comigo</title>
+    <style>
+        body{
+            background-color: black;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 14pt;
+        }
+
+        main{
+            background-color: white;
+            background-image: url(./image/background.jpg);
+            background-position: center;
+            background-size: cover;
+        }
+        #logo {
+            text-align: center;
+        }
+
+        #logo img{
+            margin: 40px;
+            padding: 20px;
+            background-color: white;
+            border-radius: 50%;
+        }
+
+        h1{
+            color: white;
+            text-align: center;
+            background-color: black;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            /*padding: 20px 0*/
+        }
+        .link-social{
+            padding:10px 0;
+
+        }
+
+        .link-social a{
+            padding: 20px;
+            background-color: black;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 15px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+    </style>
 </head>
 <body>
-   <div>
-       <img src="./image/logo.png" alt="logomarca do leia mais comigo">
+   <main>
+       <div id="logo">
+         <img src="./image/logo.png" alt="logomarca do leia mais comigo" width="200" height="200">
+       </div>
 
-   <h1>Projeto leia mais</h1></div> 
-   
+      <h1>Projeto leia mais</h1></div> 
+
+      <div class="link-social">
+        <a href="http:google.com.br" target="_blank">
+            <img src="./image/icons8-facebook-48.png" alt="link para o facebook" heigth="60">
+            Facebook
+        </a>
+       </div>
+
+       <div class="link-social">
+        <a href="http:google.com.br" target="_blank">
+            <img src="./image/icons8-youtube-48.png" alt="link para o Youtube" heigth="60">
+            Youtube
+        </a>
+       </div>
+
+       <div class="link-social">
+        <a href="http:google.com.br" target="_blank">
+            <img src="./image/icons8-instagram-48.png" alt="link para o instagram" heigth="60">
+            Instagram
+        </a>
+       </div>
+        
+      </div>
+    </main>
 </body>
 </html>
