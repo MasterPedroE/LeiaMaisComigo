@@ -1,0 +1,12 @@
+header{
+    background-image: url(../image/background.jpg);
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+
+nav li{
+    list-style: none;
+}
