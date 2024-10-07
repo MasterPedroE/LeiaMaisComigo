@@ -1,0 +1,38 @@
+:root{
+    --blue: #4242dd;
+    --white: #eeeeee;
+    --black: #222222;
+    --gray: #444444;
+    --font-title: 'serif';
+    --font-primary: 'roboto';
+    --font-size-default: 16px
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: var(--font-primary);
+    font-size: var(--font-size-default);
+}
+
+a{
+    color:  var(--gray);
+    text-decoration: underline;
+}
+
+
+
+.nav-top li a{
+    text-decoration: none;
+    color: var(--white);
+    padding: 10px 20px;
+}
+
+.nav-top li a:hover{
+    color: var(--gray);
+    background-color: var(--white);
+    border-bottom: solid 4px var(--gray);
+}
