@@ -1,5 +1,40 @@
 header{
     background-image: url(../image/background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.header-content{
+    display: flex;
+    /*flex-direction: column-reverse;*/
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: var(--shadow);
+    /*height: 100vh;*/
+    min-height: 400px;
+}
+
+.header-text, .header-logo{
+    width: 50%;
+    padding: 40px;
+}
+
+.header-text{
+    color: var(--white);
+    background-color: var(--black);
+}
+
+.header-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*text-aling: center;*/
+}
+
+.header-logo img{
+    padding: 20px;
+    background-color: var(--shadow);
+    border-radius: 50%;
 }
 
 nav ul{

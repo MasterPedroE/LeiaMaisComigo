@@ -3,6 +3,7 @@
     --white: #eeeeee;
     --black: #222222;
     --gray: #444444;
+    --shadow: rgba(0, 0, 0, 0, 0);
     --font-title: 'serif';
     --font-primary: 'roboto';
     --font-size-default: 16px
