@@ -1,3 +1,6 @@
+@import "./form.css";
+@import"./nav.css";
+
 header{
     background-image: url(../image/background.jpg);
     background-size: cover;
@@ -39,33 +42,6 @@ header{
     padding: 20px;
     background-color: var(--shadow);
     border-radius: 50%;
-}
-
-/* Navbar */
-nav ul{
-    display: flex;
-    justify-content: center;
-}
-
-nav li{
-    list-style: none;
-}
-
-.nav-top{
-    line-height: 40px;
-    background-color: var(--black);
-}
-
-nav li a{
-    text-decoration: none;
-    color: var(--white);
-    padding: 10px 20px;
-}
-
-.nav-top li a:hover {
-    color: var(--gray);
-    background-color: var(--white);
-    border-bottom: solid 4px var(--gray);
 }
 
 /*cards*/
@@ -126,11 +102,4 @@ nav li a{
 .contact-map p{
     font-size: 18px;
     margin-top: 10px;
-}
-
-/*form*/
-
-.form-group{
-    padding: 5px;
-    display: flex;
 }

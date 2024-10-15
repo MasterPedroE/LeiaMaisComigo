@@ -1,0 +1,25 @@
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+
+nav li{
+    list-style: none;
+}
+
+.nav-top{
+    line-height: 40px;
+    background-color: var(--black);
+}
+
+nav li a{
+    text-decoration: none;
+    color: var(--white);
+    padding: 10px 20px;
+}
+
+.nav-top li a:hover {
+    color: var(--gray);
+    background-color: var(--white);
+    border-bottom: solid 4px var(--gray);
+}
