@@ -23,3 +23,8 @@ nav li a{
     background-color: var(--white);
     border-bottom: solid 4px var(--gray);
 }
+
+.navbar-nav{
+    justify-content: center;
+    width: 100%;
+}

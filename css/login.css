@@ -1,2 +1,24 @@
 @import "./form.css";
-@import "./nav.css"
+
+.form-access{
+    /*display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; */
+    height: 100vh;
+
+    position: relative;
+    top: 0;
+    background-color: var(--shadow);
+}
+
+.form-access form {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    border: solid 1px var(--gray);
+    padding: 20px;
+    background-color: var(--white);
+}

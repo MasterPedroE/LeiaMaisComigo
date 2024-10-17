@@ -103,3 +103,19 @@ header{
     font-size: 18px;
     margin-top: 10px;
 }
+
+
+@media (max-width:760px){
+    .contact{
+        flex-direction: column;
+    }
+    .contact-map, .contact-form{
+        width: 100%;
+    }
+}
+
+@media (max-width:400px){
+    .header-content{
+        flex-direction: column-reverse;
+    }
+}
