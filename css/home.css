@@ -104,6 +104,10 @@ header{
     margin-top: 10px;
 }
 
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show{
+    color: var(--white);
+}
+
 
 @media (max-width:760px){
     .contact{

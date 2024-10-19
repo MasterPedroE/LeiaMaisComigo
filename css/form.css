@@ -34,3 +34,12 @@
     justify-content: right;
     gap: 10px;
 }
+
+.form-control:focus{
+    border: solid 2px;
+    box-shadow: none;
+}
+
+.form-control:disabled{
+    background-color: var(--gray);
+}
